@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@1,10&family=Righteous&display=swap');
+
+.AboutUs{
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    background-color: #D4B1A2;
+}
+
+.theTeam{
+    column-count: 3;
+    
+}
