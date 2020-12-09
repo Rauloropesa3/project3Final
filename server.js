@@ -17,7 +17,7 @@ const router = require("./routes/api.js");
 
 dotenv.config({ silent: process.env.NODE_ENV === "production" });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8000;
 const app = express();
 
 app.use(morgan("tiny"));
