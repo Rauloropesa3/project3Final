@@ -81,13 +81,13 @@ function CompanyLogos() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYRUzSogODYwcIfCvBKztxfr5bPVw7XO7QLA&usqp=CAU"
             alt=""
           ></img>
+          </li>
           <li>
             <img
               className="costcoLogo"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX01gEES9nnFnJ7LTz1P8ZCUGXL9770BvA6A&usqp=CAU"
               alt="COSTCO(solid red text all caps)sitting on top of 3(solid blue lines), next to WHOLESALE(solid blue all caps)all in a solid blue rectangle."
             ></img>
-          </li>
         </li>
         <li>
           <img
