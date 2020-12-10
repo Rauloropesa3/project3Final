@@ -33,4 +33,4 @@ function search(term, location) {
   );
 
 
-export default Home
+
