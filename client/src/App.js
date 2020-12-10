@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Home from "./pages/Home/Home";
+import { LandingPage } from './LandingPage/LandingPage';
+import { BrowserRouter as Router, Switch,Route } from 'react-router-dom';
+import {Search} from './Search/Search';
 import PrivateRoute from "./components/ProtectedHOC/ProtectedRoute";
 import Login from "./pages/Login/Login";
 import CompanyLogos from "./components/CompanyLogos";
@@ -15,11 +16,12 @@ function App() {
       <UserProvider>
         <div className="MainBodyContainer">
           <Switch>
-            <PrivateRoute path="/home">
-              <Home />
+            <PrivateRoute path="/LandingPage">
+              <LandingPage />
             </PrivateRoute>
 
-            <Route exact path="/" component={(props) => <Login {...props} />} />
+            <Route exact path="/" component={(props) => <LandingPage {...props} />} />
+            <Route path='/search' component={Search}/>
             <Route>
               <h1>404 NOT FOUND</h1>
             </Route>

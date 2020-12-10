@@ -28,7 +28,7 @@ const Login = (props) => {
           payload: data,
         });
 
-        props.history.push("/home");
+        props.history.push("/LandingPage");
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -37,7 +37,7 @@ const Login = (props) => {
 
   return (
     <section className="jumbotron jumbo_text">
-      <h1 className="display-4">OuttaLine</h1>
+      <h1 className="display-4">outtaLine</h1>
       <p className="lead">Get out of line and into the aisles.</p>
       <p>Schedule your reservation today. Sign up and save some time!</p>
       <div className="text-center">
