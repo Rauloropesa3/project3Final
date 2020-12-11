@@ -8,7 +8,7 @@ import CompanyLogos from "./components/CompanyLogos";
 import CovidInfo from "./components/CovidInfo";
 import AboutUs from "./components/AboutUs";
 import { UserProvider } from "./context/userContext";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
