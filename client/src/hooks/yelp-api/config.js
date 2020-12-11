@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://cors-anywhere.herokuapp.com/'}https://api.yelp.com/v3/businesses/search?term=grocery&latitude=${latitude}&longitude=${longitude";
+export const API_BASE_URL = "/r";
 
 // FIXME: remove this token
 // NOTE: as long as this token is saved in the frontend, the application is not production ready.
