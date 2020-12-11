@@ -8,6 +8,8 @@ export function get(path, queryParams) {
             Authorization: `Bearer ${BEARER_TOKEN}`,
             Origin: 'localhost',
             withCredentials: true,
+
         }
-    });
+    })
+
 }
