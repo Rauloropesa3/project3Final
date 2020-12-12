@@ -12,6 +12,7 @@ export function useBusinessSearch(term, location) {
             try {
                 const rawData = await api.get();
                 const resp = await rawData.json();
+                console.log("We are inside the fetch")
                 console.log(resp)
                 // setBusinesses(resp.businesses);
                 // setAmountResults(resp.total);
