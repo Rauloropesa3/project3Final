@@ -3,12 +3,5 @@ import queryString from 'query-string'
 
 export function get(path, queryParams) {
     const query = queryString.stringify(queryParams);
-    return fetch(`/r`, {
-        headers: {
-            // Authorization: `Bearer ${BEARER_TOKEN}`,
-            Origin: 'localhost',
-
-        }
-    })
-
+    return fetch(`/r`)
 }
