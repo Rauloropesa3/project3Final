@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo.png';
+import logo from '../assets/Outtaline.png';
 import styles from './NavBar.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 import {Link} from 'react-router-dom';
