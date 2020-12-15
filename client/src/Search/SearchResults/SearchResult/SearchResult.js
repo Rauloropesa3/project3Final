@@ -11,10 +11,10 @@ export function SearchResult(props) {
     const tags = b.categories.map(category => (<span className={`tag ${styles['business-tag']}`} key={b.id + category.title}>{category.title}</span>));
     const addressLines = b.location.display_address.map(addressLine => <p key={b.id + addressLine}>{addressLine}</p>);
 
-
+    // Redirect to Reserve.js page for reservation input
     const REV = (props) => {
 
-        props.push("/reserve");
+        // props.push("/reserve");
         
     }
 
