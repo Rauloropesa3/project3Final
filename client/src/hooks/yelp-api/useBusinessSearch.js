@@ -10,12 +10,12 @@ export function useBusinessSearch(term, location) {
         setBusinesses([]);
         const fetchData = async () => {
             try {
-                const rawData = await api.get();
+                const rawData = await api.get('/businesses/search' , searchParams);
                 const resp = await rawData.json();
                 console.log("We are inside the fetch")
                 console.log(resp)
-                // setBusinesses(resp.businesses);
-                // setAmountResults(resp.total);
+                setBusinesses(resp.businesses);
+                setAmountResults(resp.total);
             } catch(e) {
                 console.error(e);
             }
