@@ -22,10 +22,10 @@ export function SearchBar(props) {
                 </p>
                 <p className="control">
                     <input className={`input ${sizeClass} ${styles['input-control']}`}
-                           onChange={(e) => setTerm(e.target.value)}
-                           type="text"
-                           value={term}
-                           placeholder="burgers, barbers, spas, handymen"
+                        onChange={(e) => setTerm(e.target.value)}
+                        type="text"
+                        value={term}
+                        placeholder="burgers, barbers, spas, handymen"
                     />
                 </p>
                 <div className="control">
@@ -33,10 +33,10 @@ export function SearchBar(props) {
                 </div>
                 <p className="control">
                     <input className={`input ${sizeClass} ${styles['input-control']}`}
-                           onChange={(e) => setLocation(e.target.value)}
-                           type="text"
-                           value={location}
-                           placeholder="Where"/>
+                        onChange={(e) => setLocation(e.target.value)}
+                        type="text"
+                        value={location}
+                        placeholder="Where"/>
                 </p>
                 <div className={`button ${sizeClass} ${styles['search-button']}`} onClick={submit}>
                     <span className={`icon is-small ${styles['search-icon']}`}><i className="fas fa-search"></i></span>

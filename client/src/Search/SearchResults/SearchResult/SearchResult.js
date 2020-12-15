@@ -17,10 +17,9 @@ export function SearchResult(props) {
             <div className={styles['business-info']}>
                 <h2 className="subtitle">{b.name}</h2>
                 <BusinessRating reviewCount={b.review_count} rating={b.rating}/>
-                <p>{b.price} {tags}</p>
+                <p>{tags} <button>Reserve now </button></p>
             </div>
             <div className={styles['contact-info']}>
-                <p>{b.phone}</p>
                 {addressLines}
             </div>
         </div>
