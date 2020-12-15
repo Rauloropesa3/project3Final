@@ -10,7 +10,6 @@ import CovidInfo from "./components/CovidInfo";
 import AboutUs from "./components/AboutUs";
 import { UserProvider } from "./context/userContext";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { LandingPage } from "./LandingPage/LandingPage";
 
 function App() {
   return (
