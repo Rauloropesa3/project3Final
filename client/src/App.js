@@ -9,7 +9,8 @@ import CompanyLogos from "./components/CompanyLogos";
 import CovidInfo from "./components/CovidInfo";
 import AboutUs from "./components/AboutUs";
 import { UserProvider } from "./context/userContext";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { LandingPage } from "./LandingPage/LandingPage";
 
 function App() {
   return (
@@ -17,13 +18,22 @@ function App() {
       <UserProvider>
         <div className="MainBodyContainer">
           <Switch>
-            <PrivateRoute path="/LandingPage">
-              <LandingPage />
+            <PrivateRoute path="/pages/Login/Login.js">
+              <Login />
             </PrivateRoute>
 
+<<<<<<< HEAD
             <Route exact path="/" component={(props) => <LandingPage {...props} />} />
             <Route path='/search' component={Search}/>
             <Route path='/reserve' component={Reserve}/>
+=======
+            <Route exact path="/" component={(props) => <Login {...props} />} />
+            <Route path="/pages/Login/Login.js" comoponent={Login} />
+
+            {/* <Route path="/search" component={Search} /> */}
+            <Route exact path="/landingpage" component={LandingPage} />
+            <LandingPage />
+>>>>>>> main
             <Route>
               <h1>404 NOT FOUND</h1>
             </Route>

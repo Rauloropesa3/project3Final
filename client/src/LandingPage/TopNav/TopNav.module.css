@@ -1,24 +1,29 @@
 :root {
     --element-spacing: 1.5rem;
-}
-
+} 
 .top-nav {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
+    justify-content: space-between; 
     align-items: center;
-    margin: var(--element-spacing);
+    margin: var(--element-spacing); 
+    margin-top: 10%;
     width: 100%;
+  
 }
 
-.left > * {
+ .left > * {
     margin-right: var(--element-spacing);
-}
+} 
 
-.right {
+ .right {
     display: flex;
     align-items: center;
-}
+} 
 
-.right > * {
+ .right > * {
     margin-left: var(--element-spacing);
+} 
+
+.TopNav_left__1XNY7{
+    background-color: chartreuse;
 }

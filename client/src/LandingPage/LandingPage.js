@@ -1,11 +1,11 @@
-import React from 'react';
-import { TopNav } from './TopNav/TopNav';
-import logo from '../assets/Outtaline.png';
-import styles from './LandingPage.module.css';
-import { SearchBar } from '../SearchBar/SearchBar';
-import { SearchSuggestions } from './SearchSuggestions/SearchSuggestions';
-import useReactRouter from 'use-react-router';
-import {Link} from 'react-router-dom';
+import React from "react";
+import { TopNav } from "./TopNav/TopNav";
+import logo from "../assets/Outtaline.png";
+import styles from "./LandingPage.module.css";
+import { SearchBar } from "../SearchBar/SearchBar";
+import { SearchSuggestions } from "./SearchSuggestions/SearchSuggestions";
+import useReactRouter from "use-react-router";
+import { Link } from "react-router-dom";
 
 export function LandingPage() {
   const { history } = useReactRouter();
@@ -20,9 +20,11 @@ export function LandingPage() {
 
   return (
     <div className={styles.landing}>
-      <div className={styles['search-area']}>
+      <div className={styles["search-area"]}>
         <TopNav />
-        <Link><img src={logo} className={styles.logo} alt="logo" /></Link>
+        <Link>
+          <img src={logo} className={styles.logo} alt="logo" />
+        </Link>
         <SearchBar search={search} />
       </div>
     </div>

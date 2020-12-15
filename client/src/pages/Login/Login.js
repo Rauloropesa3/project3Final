@@ -1,6 +1,17 @@
 import React, { useRef } from "react";
+// import React,{ Component } from "react";
 import { Redirect } from "react-router-dom";
 import { useUserContext } from "../../context/userContext";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// export default class Login extends Component {
+//   constructor (props){
+//           this.state = {
+//               email : '',
+//               password : '',
+//               redirectToReferrer: true // when you're checking if the user is authenticated you have to keep this false
+//           };
+
 import "./Login.css";
 const Login = (props) => {
   console.log(props);
