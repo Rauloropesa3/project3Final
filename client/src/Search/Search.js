@@ -29,9 +29,9 @@ export function Search() {
             <NavBar term={term} location={locationParam} search={search}/>
             <SubNav/>
             <SearchResultsSummary term={searchParams.term}
-                                  location={searchParams.location}
-                                  amountResults={amountResults}
-                                  shownResults={businesses ? businesses.length : 0}
+                    location={searchParams.location}
+                    amountResults={amountResults}
+                    shownResults={businesses ? businesses.length : 0}
             />
             <SearchResults businesses={businesses}/>
         </div>

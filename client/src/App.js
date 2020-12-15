@@ -31,9 +31,9 @@ function App() {
               <h1>404 NOT FOUND</h1>
             </Route>
           </Switch>
-          <CompanyLogos />
+          {/* <CompanyLogos />
           <CovidInfo />
-          <AboutUs />
+          <AboutUs /> */}
         </div>
       </UserProvider>
     </Router>

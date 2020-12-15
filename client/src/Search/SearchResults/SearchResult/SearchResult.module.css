@@ -1,7 +1,8 @@
 .search-result {
   display: flex;
-  max-width: 1135px;
+  max-width: 1100px;
   width: 100%;
+  background-color: rgba(252, 250, 250, 0.562);
 }
 
 .business-image {

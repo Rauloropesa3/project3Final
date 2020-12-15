@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@1,100&family=Righteous&display=swap');
 
 .MainBodyContainer{
-    padding-top: 4%;
     background-image:linear-gradient(rgba(238, 150, 78, 0.3), rgba(145, 69, 69, 0.7)), url(https://www.gannett-cdn.com/-mm-/9e1f6e2ee20f44aa1f3be4f71e9f3e52b6ae2c7e/c=0-110-2121-1303/local/-/media/2020/03/10/USATODAY/usatsports/gettyimages-838816102.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp);
     background-size: cover;
     height: 585px;
