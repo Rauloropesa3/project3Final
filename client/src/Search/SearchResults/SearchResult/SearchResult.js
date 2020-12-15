@@ -14,7 +14,7 @@ export function SearchResult(props) {
     // Redirect to Reserve.js page for reservation input
     const REV = (props) => {
 
-        props.push("/reserve");
+        // props.push("/reserve");
         
     }
 
