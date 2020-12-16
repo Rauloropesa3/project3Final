@@ -4,21 +4,15 @@
   display: flex;
   justify-content: space-between;
 }
-
-.search-summary p {
-  font-size: 0.9rem;
-}
-
 .search-summary h1:global(.subtitle) {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+  padding: 0%;
 }
 
 .container {
-  background: #f3efef94;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: rgb(230, 230, 230);
 }
 
 .container > * {

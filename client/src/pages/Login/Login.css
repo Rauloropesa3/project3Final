@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@1,100&family=Righteous&display=swap');
 
 .MainBodyContainer{
-    background-image:linear-gradient(rgba(238, 150, 78, 0.3), rgba(145, 69, 69, 0.7)), url(https://www.gannett-cdn.com/-mm-/9e1f6e2ee20f44aa1f3be4f71e9f3e52b6ae2c7e/c=0-110-2121-1303/local/-/media/2020/03/10/USATODAY/usatsports/gettyimages-838816102.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp);
-    background-size: cover;
-    height: 585px;
+    background-image:linear-gradient(rgba(245, 133, 41, 0.274), rgba(145, 69, 69, 0.7)), url(https://www.gannett-cdn.com/-mm-/9e1f6e2ee20f44aa1f3be4f71e9f3e52b6ae2c7e/c=0-110-2121-1303/local/-/media/2020/03/10/USATODAY/usatsports/gettyimages-838816102.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp);
+    background-size: 100%;
+    padding-top: 7.3%;
     background-repeat: no-repeat;   
 }
 .jumbotron{
    position: relative;
-   opacity: .4;
-   margin-left: 22%;
-   margin-right: 22%;
+   /* opacity: .5; */
+   background: transparent;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 2%;
+
   
 }
 
@@ -18,12 +21,14 @@
     position: relative;
     text-align: center;
     color: maroon;
+    font-size: 80px;
     font-family: 'Righteous', cursive;
 }
 
 p.lead{
     font-weight: 600;
-    color: black;   
+    color: black;
+    margin-bottom: 5px;
 }
 
 p{
@@ -32,15 +37,13 @@ p{
     color: black;    
 }
 
-.btn-primary.btn-lg{
-    position: relative;
-    margin-left: 37%;
-    margin-right: 37%;
+.btn-primary{
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .btn-secondary.btn-lg{
     background-color: maroon;
-    
 }
 
 .separator {
@@ -69,4 +72,14 @@ input{
     text-align: center;
     font-weight: 600;
    
+}
+
+.inputEmail{
+    width: 27%;
+}
+
+.inputPassword{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 25%;
 }
