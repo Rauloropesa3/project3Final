@@ -48,16 +48,26 @@ const Login = (props) => {
 
   return (
     <section className="jumbotron jumbo_text">
-      <h1 className="display-4">outtaLine</h1>
+      <h1 className="display-4">OuttaLine</h1>
       <p className="lead">Get out of line and into the aisles.</p>
       <p>Schedule your reservation today. Sign up and save some time!</p>
       <div className="text-center">
         <a className="btn btn-primary btn-lg" href="#" role="button">
-          Sign up
+          Register
         </a>
         <div className="separator">Or</div>
-        <input ref={username} type="text" placeholder="email" />
-        <input ref={password} type="password" placeholder="password" />
+        <input
+          className="inputEmail"
+          ref={username}
+          type="text"
+          placeholder="email"
+        />
+        <input
+          className="inputPassword"
+          ref={password}
+          type="password"
+          placeholder="password"
+        />
         <button className="btn btn-secondary btn-lg" onClick={tryLogin}>
           login
         </button>

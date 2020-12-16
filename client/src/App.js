@@ -24,11 +24,8 @@ function App() {
                         
             <Route path="/pages/Login/Login.js" comoponent={Login} />
             <Route path="/search" component={Search} />
-                          
             <Route exact path="/landingpage" component={LandingPage} />
-                        
-            <LandingPage />
-            <Route path="/reserve" component={Reserve} />
+            <Reserve />
             <Route>
               <h1>404 NOT FOUND</h1>
             </Route>
