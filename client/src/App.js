@@ -23,12 +23,14 @@ function App() {
             <Route exact path="/" component={(props) => <Login {...props} />} />
                         
             <Route path="/pages/Login/Login.js" comoponent={Login} />
-            <Route path="/search" component={Search} />
             <Route exact path="/landingpage" component={LandingPage} />
+            <Route path="/search" component={Search} />
             <Reserve />
             <Route>
               <h1>404 NOT FOUND</h1>
             </Route>
+            <Route exact path="/search" component={Search} />
+            <Route path="/reserve" component={Reserve} />
           </Switch>
           <CompanyLogos />
           <CovidInfo />

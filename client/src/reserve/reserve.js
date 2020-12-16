@@ -7,9 +7,9 @@ export function Reserve() {
     clearBtn: true,
     format: "dd/mm/yyyy",
 
-    // reservationDate.on('change', function() {
-    // var pickedDate = input.val();
-    // pickedDate.html(pickedDate);
+    //   reservationDate.on("change", function () {
+    //     var pickedDate = input.val();
+    //     pickedDate.html(pickedDate);
   });
 
   return (
