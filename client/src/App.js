@@ -27,7 +27,7 @@ function App() {
                           
             <Route exact path="/landingpage" component={LandingPage} />
                         
-            <LandingPage />
+            <Reserve />
             <Route path="/reserve" component={Reserve} />
             <Route>
               <h1>404 NOT FOUND</h1>
