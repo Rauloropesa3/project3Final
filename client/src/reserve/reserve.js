@@ -7,10 +7,11 @@ export function Reserve() {
     clearBtn: true,
     format: "dd/mm/yyyy",
 
-    //   reservationDate.on("change", function () {
+
+    //     reservationDate.on('change', function() {
     //     var pickedDate = input.val();
     //     pickedDate.html(pickedDate);
-  });
+    
 
   return (
     <div>
@@ -58,14 +59,12 @@ export function Reserve() {
               </div>
             </div>
 
-            <div className="text-center">
-              <p class="font-italic text-muted mb-0">Your reservation day is</p>
-              <h4 className="font-weight-bold text-uppercase mb-3">
-                Not set yet
-              </h4>
-              <a className="btn btn-primary btn-sm px-4 rounded-pill text-uppercase font-weight-bold shadow-sm">
-                Confirm Reservation
-              </a>
+                    <div className="text-center">
+                        <p class="font-italic text-muted mb-0">Your reservation day is</p>
+                        <h4 className="font-weight-bold text-uppercase mb-3">Not set yet</h4>
+                        <a className="btn btn-primary btn-sm px-4 rounded-pill text-uppercase font-weight-bold shadow-sm">Please Confirm Reservation</a>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
