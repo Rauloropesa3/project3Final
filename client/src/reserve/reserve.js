@@ -69,5 +69,5 @@ export function Reserve() {
                 </div>
             </div>
         </div>
-        )
+    )
 }
