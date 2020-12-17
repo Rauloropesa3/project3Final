@@ -20,7 +20,24 @@ client.search({
   location: 'Los Angeles',
 }).then(response => {
   console.log("WE are inside the response")
-  console.log(response.jsonBody);
+  //console.log(response.jsonBody);
+  res.json(response.jsonBody)
+}).catch(e => {
+  console.log(e);
+});
+  console.log('test working route')
+})
+
+testRouter.post("/dynamic", (req, res)=>{
+  console.log("BODY!!!",req.body)
+
+  
+client.search({
+  term: req.body.term,
+  location: req.body.location,
+}).then(response => {
+  console.log("WE are inside the response")
+  //console.log(response.jsonBody);
   res.json(response.jsonBody)
 }).catch(e => {
   console.log(e);
