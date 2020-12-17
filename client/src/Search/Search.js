@@ -19,7 +19,8 @@ export function Search() {
     function search(term, location) {
         const encodedTerm = encodeURI(term);
         const encodedLocation = encodeURI(location);
-        history.push(`/search?find_desc=${encodedTerm}&find_loc=${encodedLocation}`);
+        
+       history.push(`/search?find_desc=${encodedTerm}&find_loc=${encodedLocation}`);
         performSearch({term, location});
     }
 

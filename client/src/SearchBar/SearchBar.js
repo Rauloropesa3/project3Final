@@ -11,6 +11,17 @@ export function SearchBar(props) {
         }
         console.log(term, location);
         e.preventDefault();
+        console.log({term,location})
+        fetch('/r/dynamic', {
+            method:"POST",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              },
+            body: JSON.stringify({term,location})
+        })
+            .then((e)=>e.json())
+            .then(data=>console.log(data))
     }
 
     const sizeClass = props.small ? '' : 'is-medium';

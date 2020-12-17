@@ -3,16 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./reserve.css";
 
 export function Reserve() {
-    // const datepicker = datepicker({
-    //     clearBtn: true,
-    //     format: "dd/mm/yyyy",
+//   const datepicker = datepicker({
+//     clearBtn: true,
+//     format: "dd/mm/yyyy",
 
-
-    // //     reservationDate.on('change', function() {
-    // //     var pickedDate = input.val();
-    // //     pickedDate.html(pickedDate);
-    // });
-    
+    //   reservationDate.on("change", function () {
+    //     var pickedDate = input.val();
+    //     pickedDate.html(pickedDate);
+  // });
 
     return (
         <div>
@@ -53,7 +51,7 @@ export function Reserve() {
                                 className="form-control py-4 px-4"
                                 />
                                 <div className="input-group-append">
-                                <span className="input-group-text px-4">
+                                    <span className="input-group-text px-4">
                                     <i className="fa fa-clock-o"></i>
                                     </span>
                                 </div>
@@ -61,9 +59,13 @@ export function Reserve() {
                         </div>
 
                         <div className="text-center">
-                            <p className="font-italic text-muted mb-0">Your reservation day is</p>
-                            <h4 className="font-weight-bold text-uppercase mb-3">Not set yet</h4>
-                            <a className="btn btn-primary btn-sm px-4 rounded-pill text-uppercase font-weight-bold shadow-sm">Please Confirm Reservation</a>
+                            <p class="font-italic text-muted mb-0">Your reservation day is</p>
+                            <h4 className="font-weight-bold text-uppercase mb-3">
+                            Not set yet
+                            </h4>
+                            <a className="btn btn-primary btn-sm px-4 rounded-pill text-uppercase font-weight-bold shadow-sm">
+                            Confirm Reservation
+                            </a>
                         </div>
                     </div>
                 </div>
