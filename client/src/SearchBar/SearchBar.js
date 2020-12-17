@@ -1,9 +1,11 @@
 import React, {useState} from 'react';
 import styles from './SearchBar.module.css';
 
+
 export function SearchBar(props) {
     const [term, setTerm] = useState(props.term || '');
     const [location, setLocation] = useState(props.location || '');
+    const [myAPIdata, setAPIdata] = useState([]);
 
     function submit(e) {
         if(typeof props.search === 'function') {
@@ -22,6 +24,7 @@ export function SearchBar(props) {
         })
             .then((e)=>e.json())
             .then(data=>console.log(data))
+            setAPIdata(myAPIdata);
     }
 
     const sizeClass = props.small ? '' : 'is-medium';
@@ -36,7 +39,7 @@ export function SearchBar(props) {
                         onChange={(e) => setTerm(e.target.value)}
                         type="text"
                         value={term}
-                        placeholder="burgers, barbers, spas, handymen"
+                        placeholder="Stores"
                     />
                 </p>
                 <div className="control">
