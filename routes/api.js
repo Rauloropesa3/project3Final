@@ -8,7 +8,7 @@ router.get('/users', (req, res) => {
 })
 
 router.post('/createuser', ({ body }, res) => {
-  console.log(body)
+  //console.log(body)
   User.create(body)
     .then((done) => res.json(done))
     .catch((err) => res.status(400).json(err))
