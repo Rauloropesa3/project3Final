@@ -34,18 +34,12 @@ padding-top: 5%;
 margin-top: 8%;
 }
 .lineImage{
-    margin-top:-11%;
- margin-bottom: 3%;
+    margin-top: -5%;
+ margin-bottom: 2%;
  width: 75%;
 }
-
-.caption {
-    padding: 12%;
-    padding-top: 5%;
-    display: block;
-}
   
-.caption3{
+.caption{
     display: block;
     padding-left: 12%;
     padding-right: 12%;
