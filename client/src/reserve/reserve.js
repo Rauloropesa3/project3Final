@@ -16,21 +16,13 @@ export function Reserve() {
         <div>
             <div className="container py-5">
                 <header className="text-center">
-                    <h1 className="display-4 font-weight-bold">Bootstrap Datepicker</h1>
+                    <h1 className="display-4 font-weight-bold">OuttaLine</h1>
                     <p className="font-italic text-muted mb-0">
-                    Create a nicely styled reservation form using Bootstrap 4 and{" "}
+                    You're almost outtaline! Please confirm your date to complete reservation.
                     <a
                     href="https://github.com/uxsolutions/bootstrap-datepicker"
                     className="text-muted"
                     >
-                        Bootstrap datepicker
-                    </a>
-                    </p>
-
-                    <p className="font-italic text-muted">
-                        Snippet By{" "}
-                    <a href="https://bootstrapious.com" className="text-muted">
-                    <u>Outtline</u>
                     </a>
                     </p>
                 </header>
