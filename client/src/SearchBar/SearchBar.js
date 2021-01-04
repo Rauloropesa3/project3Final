@@ -5,15 +5,16 @@ import styles from './SearchBar.module.css';
 export function SearchBar(props) {
     const [term, setTerm] = useState(props.term || '');
     const [location, setLocation] = useState(props.location || '');
-    const [myAPIdata, setAPIdata] = useState([]);
+    // const [myAPIdata, setAPIdata] = useState();
+    
 
     function submit(e) {
         if(typeof props.search === 'function') {
             props.search(term, location);
         }
-        console.log(term, location);
+        
         e.preventDefault();
-        console.log({term,location})
+  
         fetch('/r/dynamic', {
             method:"POST",
             headers: {
@@ -23,8 +24,11 @@ export function SearchBar(props) {
             body: JSON.stringify({term,location})
         })
             .then((e)=>e.json())
-            .then(data=>console.log(data))
-            setAPIdata(myAPIdata);
+            .then(data=>{
+                console.log(data)
+                props.setAPIdata(data);
+            })
+        
     }
 
     const sizeClass = props.small ? '' : 'is-medium';

@@ -7,11 +7,12 @@ import ScrollArea from 'react-scrollbar';
 
 export function SearchResults(props) {
   let searchResults = <Spinner />;
-  if (props.businesses && props.businesses.length) {
-    searchResults = props.businesses.map((b) => (
+  if (props.businesses && props.businesses.businesses.length) {
+    searchResults = props.businesses.businesses.map((b) => (
       <SearchResult key={b.id} business={b} />
     ));
   }
+  console.log(props)
 
   return (
     <ScrollArea>

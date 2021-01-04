@@ -32,7 +32,7 @@ export function Search() {
                     amountResults={amountResults}
                     shownResults={businesses ? businesses.length : 0}
             />
-            <SearchResults businesses={businesses}/>
+            {/* <SearchResults businesses={businesses}/> */}
         </div>
     );
 }
