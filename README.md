@@ -1,56 +1,131 @@
-## OuttaLine
+# OuttaLine
 
-#### Example:
+## Description
 
+---
 
-An application used to filter data form Yelp API based on user preference, built with React, JavaScript, HTML, CSS
-
-## Project Status
-We are currently working on completing the date picker component of our app as it was introduced at the end and turns out to be the most complex.
-
-#### Example:
-
-This project is currently in development. Users can Login with email and passowrd and and data is recorded in the back-end. Functionality to sort by additional parameters is in progress.
-
-## Project Screen Shot(s)
-
-#### Example:   
-
-[ PRETEND SCREEN SHOT IS HERE ]
-
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
-
-## Installation and Setup Instructions
-
-#### Example:  
-
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
-
-Installation:
-
-`npm install`  
-
-To Run Test Suite:  
-
-`npm test`  
-
-To Start Server:
-
-`npm start`  
-
-To Visit App:
-
-`localhost:3000/ideas`  
-
-## Reflection
-
-  - As a post pandemic grocery shopper 
+As a post pandemic grocery shopper
 I want to be able to log in and access the search bar to search for grocery stores
 So that I can find the nearest one in my area and make a reservation to shop without the hassle of a wait line.
 
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
 
-  - What did you set out to build?
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
-  - What tools did you use to implement this project?
-      - This might seem obvious because you are IN this codebase, but to all other humans now is the time to talk about why you chose webpack instead of create react app, or D3, or vanilla JS instead of a framework etc. Brag about your choices and justify them here.  
+## Table of content
+
+---
+
+- [Description](#description)
+- [Table of content](#table-of-content)
+- [Installation](#installation)
+- [Setup](#setup)
+- [Deploying](#deploying)
+- [Contributing](#contributing)
+- [Support/Questions](#supportquestions)
+- [License](#license)
+
+## Installation
+
+---
+
+> **_get started_**:
+
+- react js
+- node js
+- mongodb
+- MERN boiler-plate
+
+## Setup
+
+---
+
+- npm
+- npm install
+- npm i express
+- npm i mangoose
+- npm morgan
+- npm session
+- npm yarn
+
+---
+
+![picture of the outtaline App](outtline1.png)
+
+---
+
+![picture of the outtaline App](outtaline2.png)
+
+---
+
+![picture of the outtaline App](outtaline3.png)
+
+---
+
+![picture of the outtaline App](outtaline4.png)
+
+---
+
+![picture of the outtaline App](outtaline5.png)
+
+---
+
+![picture of the outtaline App](outtline6.png)
+
+---
+
+![picture of the outtaline App](outtline7.png)
+
+## Deploying
+
+---
+
+- Heroku
+
+> **_Find me on Github:_**
+
+**_At Github:_**
+<https://github.com/Rauloropesa3/project3Final.git>
+
+**_Check out the Outtaline App Video_**
+<https://drive.google.com/file/d/1Jxpq7Q5QuueEYSNeep9SaAhbtykvLTU3/view>
+
+**_Or just test out the app_**
+<https://powerful-garden-84804.herokuapp.com>
+
+## Contributing
+
+---
+
+**_step 1_**
+
+- **Option 1**
+
+  - Fork this repo!
+
+- **Option 2**
+  - Clone thr repo to your local machine
+
+**_step 2_**
+
+- Hack Away!!!
+- Create a new pull request
+
+## Support/Questions
+
+---
+
+Reach out to me if you have any questions!
+
+- Via email:
+  - alexoropes1982@yahoo.com
+
+## License
+
+---
+
+![License](https://img.shields.io/badge/LICENSE-MIT-maroon)
+
+- MIT License
+
+  <https://opensource.org/license/>
+
+  >

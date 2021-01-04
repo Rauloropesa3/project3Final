@@ -16,7 +16,7 @@ testRouter.get('/', (req, res) => {
 
 
 client.search({
-  term: 'Grocery',
+  term: 'Ralphs',
   location: 'Los Angeles',
 }).then(response => {
   console.log("WE are inside the response")

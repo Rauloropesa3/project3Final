@@ -1,13 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans:ital,wght@1,10&family=Righteous&display=swap');
 
 .AboutUs{
+
     padding-top: 2%;
     text-align: center;
+    font-size: 50px;
     font-family: 'Righteous', cursive;
-    background-color: #D4B1A2;
+    background-color: white;
 }
 
-.theTeam{
+.socialDistancing{
+    background-color: rgb(255, 255, 255);
     column-count: 3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
     
+}
+
+.imgTitle{
+    font-family: 'Righteous', cursive;
+}
+
+img{
+    padding-top: 10%;
+    width: 70%;
+}
+.symptoms{
+height: 300px;
+padding-top: 5%;
+margin-top: 8%;
+}
+.lineImage{
+    margin-top: -5%;
+ margin-bottom: 2%;
+ width: 75%;
+}
+  
+.caption{
+    display: block;
+    padding-left: 12%;
+    padding-right: 12%;
 }
